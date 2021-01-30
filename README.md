@@ -1,7 +1,7 @@
 # flutterwave-intern-test
-NodeJS Backend Engineer (Intern)
+## NodeJS Backend Engineer (Intern)
 
-The task:
+### The task:
 Create a simple rule-validation API.
 (You are welcome to use ANY framework or third party library of your choice)
 
@@ -22,7 +22,7 @@ Example:
 
 
 Your rule-validation API should have just two routes:
-1/ First route is the base route. HTTP GET "/"
+### 1/ First route is the base route. HTTP GET "/"
 It should return with data in the following format:
 
 {
@@ -44,7 +44,7 @@ c/ email should be your preferred email of contact
 d/ mobile should be your preferred mobile number of contact 
 e/ twitter should be your twitter handle (the '@' symbol must be included). [PS: This field is optional, you can choose to include it in your response or not]
 
-2/ Second route is the rule validation route. HTTP POST "/validate-rule"
+### 2/ Second route is the rule validation route. HTTP POST "/validate-rule"
 The route should accept JSON data containing a rule and data field to validate the rule against. Example:
 {
   "rule": {
@@ -187,13 +187,6 @@ i/ If the rule validation fails, your endpoint response (HTTP 400 status code) s
     }
   }
 }
-
-j/ Host your solution on Glitch / Heroku or any other platform you prefer. Be sure that the base route and API endpoint routes are accessible.
-e.g. if your solution is hosted at myflwsoln.herokuapp.com .. the following routes should be accessible 
-a/ HTTP [GET] myflwsoln.herokuapp.com/
-b/ HTTP [POST] myflwsoln.herokuapp.com/validate-rule
-
-Once done, submit your solution using this google form https://forms.gle/Ls8S1QrRChGL2XnYA
 
 Example JSON request payloads:
 = EX1 =
